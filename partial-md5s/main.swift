@@ -45,5 +45,8 @@ catch {
                arguments.inputPath, error.localizedDescription)
     }
     
+    print("Error opening file at \(arguments.inputPath): " +
+        error.localizedDescription, to: &standardError)
+    
     exit(EXIT_FAILURE)
 }

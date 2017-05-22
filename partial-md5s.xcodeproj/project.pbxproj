@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F3F24831ED364D1001C11BA /* ErrOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3F24821ED364D1001C11BA /* ErrOut.swift */; };
 		1F7D43E11ECF916E00A8890F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7D43E01ECF916E00A8890F /* main.swift */; };
 		1FFB53ED1ED35946003A207A /* MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFB53EC1ED35946003A207A /* MD5.swift */; };
 		1FFB53EF1ED35ACA003A207A /* Arguments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFB53EE1ED35ACA003A207A /* Arguments.swift */; };
@@ -28,6 +29,7 @@
 /* Begin PBXFileReference section */
 		1F3F247F1ED36230001C11BA /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		1F3F24801ED36230001C11BA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1F3F24821ED364D1001C11BA /* ErrOut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrOut.swift; sourceTree = "<group>"; };
 		1F7D43DD1ECF916E00A8890F /* partial-md5s */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "partial-md5s"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F7D43E01ECF916E00A8890F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		1F7D43E81ECF92E300A8890F /* libcommonCrypto.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libcommonCrypto.tbd; path = usr/lib/system/libcommonCrypto.tbd; sourceTree = SDKROOT; };
@@ -73,6 +75,7 @@
 			children = (
 				1FFB53EE1ED35ACA003A207A /* Arguments.swift */,
 				1FFB53F01ED35E62003A207A /* DataChunks.swift */,
+				1F3F24821ED364D1001C11BA /* ErrOut.swift */,
 				1FFB53EC1ED35946003A207A /* MD5.swift */,
 				1F7D43E01ECF916E00A8890F /* main.swift */,
 			);
@@ -158,6 +161,7 @@
 				1FFB53EF1ED35ACA003A207A /* Arguments.swift in Sources */,
 				1FFB53F11ED35E62003A207A /* DataChunks.swift in Sources */,
 				1FFB53ED1ED35946003A207A /* MD5.swift in Sources */,
+				1F3F24831ED364D1001C11BA /* ErrOut.swift in Sources */,
 				1F7D43E11ECF916E00A8890F /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
