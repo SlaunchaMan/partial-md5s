@@ -26,6 +26,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1F3F247F1ED36230001C11BA /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		1F3F24801ED36230001C11BA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1F7D43DD1ECF916E00A8890F /* partial-md5s */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "partial-md5s"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F7D43E01ECF916E00A8890F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		1F7D43E81ECF92E300A8890F /* libcommonCrypto.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libcommonCrypto.tbd; path = usr/lib/system/libcommonCrypto.tbd; sourceTree = SDKROOT; };
@@ -49,6 +51,8 @@
 		1F7D43D41ECF916E00A8890F = {
 			isa = PBXGroup;
 			children = (
+				1F3F247F1ED36230001C11BA /* LICENSE */,
+				1F3F24801ED36230001C11BA /* README.md */,
 				1FFB53EA1ED33CDD003A207A /* CommonCrypto */,
 				1F7D43DF1ECF916E00A8890F /* partial-md5s */,
 				1F7D43DE1ECF916E00A8890F /* Products */,
