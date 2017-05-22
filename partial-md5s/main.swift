@@ -16,7 +16,7 @@ guard let arguments = CommandLine.parseArguments() else {
 
 let inputURL = URL(fileURLWithPath: arguments.inputPath)
 
-if #available(OSX 10.12, *) {
+if #available(macOS 10.12, *) {
     os_log("Opening file at path %@",
            log: .default,
            type: .info,
@@ -26,7 +26,7 @@ if #available(OSX 10.12, *) {
 do {
     let data = try Data.init(contentsOf: inputURL, options: .alwaysMapped)
     
-    if #available(OSX 10.12, *) {
+    if #available(macOS 10.12, *) {
         os_log("Using chunk size of %{bytes}d",
                log: .default,
                type: .info,
@@ -38,7 +38,7 @@ do {
     }
 }
 catch {
-    if #available(OSX 10.12, *) {
+    if #available(macOS 10.12, *) {
         os_log("Error opening file at %@: %@",
                log: .default,
                type: .error,
