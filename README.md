@@ -6,5 +6,5 @@ Computes the MD5 hash of parts of a file.
 
 partial-md5s accepts two command-line arguments:
 
-`-i <input file>` - Requred
-`-s <chunk size in bytes>` - Optional, defaults to 50 MB
+* `-i <input file>` - Requred
+* `-s <chunk size in bytes>` - Optional, defaults to 50 MB
